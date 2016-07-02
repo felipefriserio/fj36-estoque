@@ -11,7 +11,6 @@ import br.com.caelum.estoque.rmi.ItemEstoque;
 public class TestaEscritaDeObjetos {
 
 	public static void main(String[] args) throws IOException  {
-		// TODO Auto-generated method stub
 		try(ObjectOutputStream oos = new ObjectOutputStream(
 				new FileOutputStream("itens.bin"))){
 					ItemEstoque item1  = new ItemEstoque("ARQ", 2); 
